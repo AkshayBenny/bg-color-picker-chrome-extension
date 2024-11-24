@@ -1,0 +1,18 @@
+{
+	"manifest_version": 3,
+	"name": "Background Colour Changer",
+	"icons": {
+		"32": "icon32.jpeg"
+	},
+	"version": "1.0.0",
+	"background": {
+		"service_worker": "service-worker.js",
+		"type": "module"
+	},
+	"action": {
+		"default_icon": "icon32.jpeg",
+		"default_popup": "index.html"
+	},
+	"permissions": ["scripting"],
+	"host_permissions": ["http://*/*", "https://*/*"]
+}
